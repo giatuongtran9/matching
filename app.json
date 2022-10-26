@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "matching",
+    "name": "Matching",
     "slug": "matching",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuongtran99.matching"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.tuongtran99.matching"
     },
     "web": {
       "favicon": "./assets/favicon.png"
